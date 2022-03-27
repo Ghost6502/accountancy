@@ -1,0 +1,492 @@
+@import 'global';
+
+// start header
+
+.header__inner{
+    margin-top: 27px;
+    display: flex;
+}
+
+.header__content{
+    margin-left: auto;
+}
+
+.header__list{
+    display: flex;
+}
+
+.header__list ul{
+    display: block;
+    li{
+        display: inline-block;
+        list-style: none;
+        & + li{
+            margin-left: 22px;
+        }
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+    }
+}
+
+.header__button-login{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 13px 15px;
+    text-align: center;
+    border: 1px solid #000;
+    min-height: 52px;
+    width: 96px;
+    background-color: #fff;
+    border-radius: 100px;
+    margin-left: 27px;
+    cursor: pointer;
+}
+
+.header__button-expert{
+    width: 189px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 13px 15px;
+    text-align: center;
+    border: none;
+    min-height: 52px;
+    background-color: #000;
+    border-radius: 100px;
+    margin-left: 18px;
+    cursor: pointer;
+}
+
+.header__humburger{
+    display: none;
+}
+
+// end header
+// start finances
+
+.finances{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-top: 32px;
+    padding-bottom: 72px;
+}
+
+.finances__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.finances__content{
+    max-width: 483px;
+    width: 100%;
+}
+
+.finances__title{
+    font-size: 77px;
+    margin-top: 96px;
+}
+
+.finances__text{
+    margin-top: 27px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.finances__simple{
+    margin-top: 79px;
+    font-size: 18px;
+}
+
+.finances__button{
+    margin-top: 27px;
+    button{
+        border: none;
+        color: #fff;
+        background-color: #000;
+        width: 159px;
+        min-height: 61px;
+        padding: 17px 15px;
+        border-radius: 100px;
+        font-size: 22px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+}
+
+.finances__line{
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    height: 1px;
+    background-color: #EAEEF2;
+    margin-top: -35px;
+}
+
+// end finances
+// start entrepreneurs
+
+.entrepreneurs__inner{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.entrepreneurs__img{
+    margin-top: 138px;
+}
+
+.entrepreneurs__content{
+    margin-left: 104px;
+}
+
+.entrepreneurs__title{
+    margin-top: 106px;
+    max-width: 443px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 57px;
+    line-height: 57px;
+}
+
+.entrepreneurs__text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 33px;
+    max-width: 515px;
+    width: 100%;
+    margin-bottom: 126px;
+    span{
+        color: #335c81;
+        text-decoration: underline;
+    }
+}
+
+// end entrepreneurs
+// start switch
+
+.switch{
+    margin-top: 45px;
+    padding-top: 88px;
+    padding-bottom: 126px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.switch__title{
+    font-size: 58px;
+}
+
+.switch__items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.switch__item{
+    margin-top: 82px;
+    max-width: 295px;
+    width: 100%;
+}
+
+.switch__item-title{
+    font-size: 28px;
+    margin-top: 24px;
+    line-height: 36px;
+}
+
+.switch__item-text{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    span{
+        color: #335c81;
+        text-decoration: underline;
+    }
+}
+
+.switch__button{
+    button{
+        border-radius: 100px;
+        border: none;
+        cursor: pointer;
+        padding: 12px;
+        text-align: center;
+        width: 235px;
+        height: 50px;
+        font-weight: 700;
+        background-color: #F7B2B7;
+        margin-top: 71px;
+    }
+}
+
+// end switch
+// start growth
+
+.growth{
+    background-color: #FDECED;
+    padding: 88px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.growth__title{
+    font-size: 58px;
+}
+
+.growth__items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.growth__item{
+    max-width: 309px;
+    width: 100%;
+    margin-top: 82px;
+}
+
+.growth__item-title{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: 24px;
+}
+
+.growth__item-text{
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 304px;
+    width: 100%;
+}
+
+// end growth
+// start company
+
+.company{
+    padding-top: 108px;
+    padding-bottom: 54px;
+}
+
+.company__inner{
+    display: flex;
+}
+
+.company__text{
+    width: 236px;
+    font-size: 27px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 36px;
+    margin-top: 21px;
+}
+
+.company__img{
+    margin-left: 99px;
+}
+
+// end company
+// start ac hub
+
+.achub{
+    padding-top: 107px;
+    padding-bottom: 78px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.achub__inner{
+    display: flex;
+}
+
+.achub__title{
+    margin-top: 83px;
+    font-size: 58px;
+    font-weight: 700;
+}
+
+.achub__text{
+    margin-top: 40px;
+    max-width: 547px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.achub__button{
+    margin-top: 79px;
+    button{
+        width: 140px;
+        height: 50px;
+        border-radius: 100px;
+        background-color: #F7B2B7;
+        font-weight: 700;
+        font-size: 18px;
+        padding: 12px;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+// end ac hub
+// start banner
+
+.banner__inner{
+    margin: 108px 0;
+    background-color: #8BD4D6;
+    border-radius: 10px;
+    max-width: 1150px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+
+.banner__content{
+    margin: 89px 0;
+    margin-left: 90px;
+}
+
+.banner__title{
+    font-weight: 700;
+    font-size: 46px;
+}
+
+.banner__text{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 18px;
+}
+
+.banner__button{
+    margin-top: 117px;
+    margin-left: auto;
+    margin-right: 90px;
+    button{
+        font-size: 18px;
+        font-weight: 700;
+        color: #fff;
+        text-align: center;
+        width: 159px;
+        height: 50px;
+        border-radius: 100px;
+        border: none;
+        background-color: #000;
+        padding: 12px;
+        cursor: pointer;
+    }
+}
+
+// end banner
+// start footer
+
+.footer{
+    background-color: #302E3F;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.footer__box{
+    display: flex;
+}
+
+.footer__box-text{
+    margin-top: 9px;
+    color: #fff;
+    font-size: 28px;
+    line-height: 36px;
+    margin-left: 18px;
+}
+
+.footer__columns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__column{
+    margin-top: 55px;
+    max-width: 180px;
+    width: 100%;
+}
+
+.footer__column-title{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #fff;
+}
+
+.footer__column-content{
+    ul{
+        li + li{
+            margin-top: 8px;
+        }
+        &, li{
+            list-style: none;
+            padding-left: 0;
+        }
+        & li a{
+            text-decoration: none;
+            color: #C5E9EA;
+            font-size: 16px;
+        }
+    }
+}
+
+.footer__information{
+    margin-top: 81px;
+    ul{
+        padding-left: 0;
+        margin-top: 13px;
+        &, li{
+            list-style: none;
+        }
+        li{
+            color: #C5E9EA;
+            font-size: 16px;
+            a{
+                text-decoration: none;
+                color: #C5E9EA;
+            }
+            & + li{
+                margin-top: 8px;
+            }
+        }
+    }
+}
+
+.footer__information-title{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #fff;
+}
+
+.footer__copy{
+    display: flex;
+    align-items: flex-end;
+    font-size: 16px;
+    color: #C5E9EA;
+}
+
+.footer__copy-policy,
+.footer__copy-terms{
+    margin-left: 27px;
+}
+
+.footer__copy-img{
+    margin-left: auto;
+}
+
+// end footer
+
+@import 'media';
